@@ -1,0 +1,39 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+
+<div class="col-3">
+    <button style="font-size:12px;height: 25px;background-color:#9a1f0a;" class="btn btn-success" onclick="@(()=>GetData("EE"))"> Get data from Novater service </button>
+</div>
+
+
+@if (_showTable)
+{
+
+    <div class="col-5" style="padding-top: 10px;">
+        <table class="table table-bordered table-striped table-hover table-sm" style="font-size:smaller;">
+            <thead>
+                <tr>
+                    @*  92 % *@
+
+                    <th style="width:10%;"> Route </th>
+                    <th style="width:10%;"> Price </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rowData in _tData.data)
+                {
+                    <tr scope="row">
+                        <td>@rowData.Route </td>
+                        <td>@rowData.Price </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

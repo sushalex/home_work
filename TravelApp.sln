@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35731.43 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApp", "TravelApp\TravelApp.csproj", "{9E018E58-5837-4CD8-8F45-9F9C3E1E6DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelApi", "TravelApi\TravelApi.csproj", "{A50DECE4-7A44-4026-9F5B-1863E7F7D8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{EDAA49E0-CE52-4D6B-B3DD-E90E138928A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E018E58-5837-4CD8-8F45-9F9C3E1E6DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E018E58-5837-4CD8-8F45-9F9C3E1E6DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E018E58-5837-4CD8-8F45-9F9C3E1E6DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E018E58-5837-4CD8-8F45-9F9C3E1E6DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50DECE4-7A44-4026-9F5B-1863E7F7D8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50DECE4-7A44-4026-9F5B-1863E7F7D8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50DECE4-7A44-4026-9F5B-1863E7F7D8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50DECE4-7A44-4026-9F5B-1863E7F7D8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAA49E0-CE52-4D6B-B3DD-E90E138928A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAA49E0-CE52-4D6B-B3DD-E90E138928A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAA49E0-CE52-4D6B-B3DD-E90E138928A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAA49E0-CE52-4D6B-B3DD-E90E138928A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {965BBBF3-2AF8-4E7B-A4C5-7C3088EB8D61}
+	EndGlobalSection
+EndGlobal

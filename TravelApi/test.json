@@ -1,0 +1,31 @@
+{
+  "data": [
+
+    {
+      "Route": "Tallinn-Tartu",
+      "Price": 12.4
+    },
+    {
+      "Route": "Tallinn-Riia",
+      "Price": 167.64
+    },
+    {
+      "Route": "Tallinn-Vilnius",
+      "Price": 112.4
+    },
+    {
+      "Route": "Tallinn-Parnu",
+      "Price": 17.1
+    },
+    {
+      "Route": "Tallinn-Tartu",
+      "Price": 111.4
+    },
+    {
+      "Route": "Tallinn-Narva",
+      "Price": 15.64
+    }
+  ],
+   
+  "AllowedHosts": "*"
+}
